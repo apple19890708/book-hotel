@@ -22,7 +22,7 @@ const userLoginTypedSchema = toTypedSchema(
   z.object({
     email: z
       .string()
-      .min(1, "請輸入電子信箱!")
+      .min(1, "請輸入電子信箱")
       .email({ message: "請輸入信箱格式" })
       .default(emailInput.value),
     password: z.string().min(1, "請輸入密碼").default(""),
