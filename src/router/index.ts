@@ -9,5 +9,10 @@ const router = createRouter({
 
 // 設定導航守衛
 router.beforeEach(beforeEach);
+router.onError((error, to) => {
+  if (error.message.includes("Failed to fetch dynamically imported module")) {
+    window.location = to.fullPath;
+  }
+});
 
 export default router;
