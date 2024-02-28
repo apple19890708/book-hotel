@@ -94,7 +94,7 @@ const routes = [
     name: "404",
     component: import("../views/NotFound.vue"),
     meta: {
-      title: "404",
+      title: "4044",
     },
   },
 ];
