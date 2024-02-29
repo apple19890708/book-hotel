@@ -13,7 +13,7 @@ import SectionTitle from "@/components/Home/SectionTitle.vue";
                 <div class="z-1 position-relative">
                   <SectionTitle title="關於我們" type="white" />
                   <p class="text-white mb-0 fs-lg-8 fs-9">
-                    享樂酒店，位於美麗島高雄的心臟地帶，是這座城市的璀璨瑰寶與傲人地標。
+                    享樂酒店，位於高雄的心臟地帶，是這座城市的璀璨瑰寶與傲人地標。
                     <br
                       class="d-lg-block d-none"
                     />我們的存在，不僅僅是為了提供奢華的住宿體驗，更是為了將高雄的美麗與活力，獻給每一位蒞臨的旅客。
