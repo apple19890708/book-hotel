@@ -1,1 +1,0 @@
-import{a4 as t,r as n}from"./index-7nT60dns.js";const g=t("booking",()=>{const e={startDate:new Date,endDate:new Date,peopleNum:0,id:""},o=n({...e});return{booking:o,setBookingData:a=>{o.value={...o.value,...a}},clearBookingData:()=>{o.value={...e}}}});export{g as u};
