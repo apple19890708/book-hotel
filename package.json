@@ -53,5 +53,9 @@
     "typescript": "^5.3.3",
     "vite": "^5.0.8",
     "vue-tsc": "^1.8.25"
-  }
+  },
+  "description": "## 安裝",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
